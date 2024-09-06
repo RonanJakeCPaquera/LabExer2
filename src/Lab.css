@@ -1,0 +1,80 @@
+/*Lab.css*/
+.cell {
+    justify-content: space-between;
+    align-items: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 320px;
+    border: 3px solid #333;
+    width: 908px;
+    height: 770px;
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.box {
+    border: 1px solid lightslategray;
+    width: 510px;
+    height: 768px;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+}
+
+.r-boxes {
+    text-align: left;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-left: 530px;
+}
+  
+.r-box {
+    text-align: left;
+    border: 2px solid gray;
+    height: 180px; 
+    width: 365px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+}
+
+.r-box-high {  
+    text-align: left;
+    border: 2px solid red; 
+    height: 180px; 
+    width: 365px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.duration-bar {
+    height: 20px; 
+    border: 1px solid #000; 
+    margin-top: 5px;
+    position: relative;
+    background-color: rgb(46, 1, 249);
+}
+
+.bar {
+    height: 100%;
+    background-color: green; /* Customize the bar color */
+    transition: width 0.5s; /* Add a smooth transition effect for width changes */
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 5px; /* Adjust the label position as needed */
+    line-height: 20px; /* Center the label text vertically */
+}
